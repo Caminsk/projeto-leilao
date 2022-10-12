@@ -1,0 +1,134 @@
+@import url(./global.css);
+
+.banner {
+  height: 680px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+.menu-list a {
+  color: #04293a;
+}
+.menu-list span {
+  font-family: Playfair Display;
+}
+.links {
+  width: 600px;
+}
+.btn-login {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.btn {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #ecb365 0%, #de9d44 100%);
+  border-radius: 5px;
+  font-family: Roboto Flex;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.lote {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 10px 40px;
+  color: #fff;
+}
+.img1 {
+  background-image: url(../img/anel-casamento/amanda-mocci-Zyp3t67rrP4-unsplash.jpg);
+}
+.btn-lote1 {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  position: absolute;
+  left: 100px;
+  top: 600px;
+}
+.form1 {
+  position: absolute;
+  left: 270px;
+  top: 600px;
+}
+.img2 {
+  background-image: url(../img/alex-azabache-y2ErhoE92KA-unsplash.jpg);
+}
+.btn-lote2 {
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  left: 100px;
+  top: 1300px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+.form2 {
+  position: absolute;
+  left: 270px;
+  top: 1300px;
+}
+
+/* acoes */
+section {
+  display: grid;
+  height: 100vh;
+}
+.galeria {
+  display: grid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-template-columns: 50% 50%;
+  height: 800px;
+}
+.galeria-text{
+  position: absolute;
+  left: 100px;
+  top: 650px;
+}
+.g1 {
+  grid-column: 1;
+  background-image: url(../img/arteum-ro-9QArBVqD7mE-unsplash.jpg);
+}
+.g1-text{
+  position: relative;
+  left: 270px;
+  top: 600px;
+}
+.btn-g1 {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+}
+.g2 {
+  grid-column: 2;
+  background-image: url(../img/fanqi-VLy8wPYpV9s-unsplash.jpg);
+}
+.g3 {
+  grid-column: 1;
+  grid-row: 2;
+  background-image: url(../img/gita-krishnamurti-TUH4KRKoUEg-unsplash.jpg);
+}
+.g4 {
+  grid-column: 2;
+  grid-row: 2;
+  background-image: url(../img/jenna-day-B-JtfqdHemU-unsplash.jpg);
+}

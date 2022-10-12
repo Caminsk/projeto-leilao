@@ -1,0 +1,19 @@
+/* margin 0px */
+body,
+a,
+h1,
+h2,
+h3,
+p, img {
+  margin: 0px;
+}
+body{
+  font-family: Roboto, sans-serif;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+a{
+  text-decoration: none;
+}
